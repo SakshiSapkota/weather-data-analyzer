@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv(r"C:\Users\User\Desktop\self_project\Weather Data Analyzer\weather.csv")
+df = pd.read_csv(r"weather.csv")
 
 df["date"] = pd.to_datetime(df["date"])
 """It took the date column which was plain text like "2026-01-01" and c
