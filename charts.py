@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv(r"C:\Users\User\Desktop\self_project\Weather Data Analyzer\weather.csv")
+df = pd.read_csv(r"weather.csv")
 
 df["date"] = pd.to_datetime(df["date"])
 df["month"] = df["date"].dt.month
